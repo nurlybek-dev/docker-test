@@ -70,7 +70,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "image_id": 1,
+  "image_id": 1
 }'
 
 # Alpine image echo
@@ -79,7 +79,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "image_id": 2,
+  "image_id": 2
 }'
 
 ```
