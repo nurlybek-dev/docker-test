@@ -1,5 +1,14 @@
 # Docker services
+
 # Установка
+
+## Требования
+Предпологается что в запускаемой машине стоит докер и postgres базас пользователем __postgres__ и паролем __postgres__.
+Если базы нет, можно воспользоваться docker-compose что бы поднять его.
+```
+docker-compose up -d
+```
+## Скачивание
 ```
 git clone https://github.com/nurlybek-dev/docker-test.git
 cd docker-test
